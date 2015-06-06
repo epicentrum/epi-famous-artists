@@ -21,7 +21,6 @@ p {
 
 img {
   max-height: 300px;
-  margin: 0 20px 20px 0;
 }
 
 ul,
@@ -32,6 +31,10 @@ li {
 
 li {
   float: left;
+}
+
+li ul li {
+  margin: 0 20px 20px 0;
 }
 
 footer {
